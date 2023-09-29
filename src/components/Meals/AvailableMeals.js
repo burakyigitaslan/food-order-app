@@ -11,7 +11,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://react-http-d0f24-default-rtdb.europe-west1.firebasedatabase.app/meals.json"
+        "https://food-order-app-f82be-default-rtdb.europe-west1.firebasedatabase.app/meals.json"
       );
 
       if (!response.ok) {
